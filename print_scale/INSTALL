@@ -1,0 +1,22 @@
+How to install Glade-Perl application 'print_scale'
+--------------------------------------------------------------------
+
+TO INSTALL
+----------
+There is a standard Makefile.PL to handle some checks and install the package
+
+To install
+    perl Makefile.PL
+    make
+    make test
+    su
+    make install (if test was OK)
+        
+TO BUILD RPMS
+-------------
+Build the RPMs by calling eg.
+    rpm -ta print_scale-0.01.tar.gz
+
+
+¶g¤G 11¤ë 26 21:37:13 CST 2002 -  <allways@allways.taipei.excell.com.tw>
+    - version 0.01 - This file was created by Glade::PerlSource

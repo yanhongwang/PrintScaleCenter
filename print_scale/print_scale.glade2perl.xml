@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<glade2perl-Options>
+  <app>
+    <allow_gnome>1</allow_gnome>
+    <author> &lt;allways@allways.taipei.excell.com.tw&gt;</author>
+    <copying># Unspecified copying policy, please contact the author
+#</copying>
+    <date>¶g¤­ 11¤ë  1 15:18:17 CST 2002</date>
+    <description>No description</description>
+    <logo>Logo.xpm</logo>
+    <name>print_scale</name>
+    <version>0.01</version>
+  </app>
+
+  <diag>
+    <log>/home/allways/prs_ext/print_scale/print_scale.glade2perl.log</log>
+    <verbose>2</verbose>
+  </diag>
+
+  <dist>
+    <MANIFEST_SKIP>/home/allways/Projects/print_scale/MANIFEST.SKIP</MANIFEST_SKIP>
+    <Makefile_PL>/home/allways/Projects/print_scale/Makefile.PL</Makefile_PL>
+    <directory>/home/allways/Projects/print_scale</directory>
+    <spec>/home/allways/Projects/print_scale/print_scale.spec</spec>
+    <test_pl>/home/allways/Projects/print_scale/test.pl</test_pl>
+  </dist>
+
+  <doc>
+    <COPYING>/home/allways/prs_ext/print_scale/COPYING</COPYING>
+    <Changelog>/home/allways/prs_ext/print_scale/Changelog</Changelog>
+    <FAQ>/home/allways/prs_ext/print_scale/FAQ</FAQ>
+    <INSTALL>/home/allways/prs_ext/print_scale/INSTALL</INSTALL>
+    <NEWS>/home/allways/prs_ext/print_scale/NEWS</NEWS>
+    <README>/home/allways/prs_ext/print_scale/README</README>
+    <ROADMAP>/home/allways/prs_ext/print_scale/ROADMAP</ROADMAP>
+    <TODO>/home/allways/prs_ext/print_scale/TODO</TODO>
+    <directory>/home/allways/prs_ext/print_scale/Documentation</directory>
+  </doc>
+
+  <glade>
+    <directory>/home/allways/prs_ext/print_scale</directory>
+    <file>/home/allways/prs_ext/print_scale/print_scale.glade</file>
+    <name_from>Specified as arg to Glade::PerlGenerate-&gt;Form_from_Glade_File</name_from>
+    <pixmaps_directory>/home/allways/prs_ext/print_scale/pixmaps</pixmaps_directory>
+    <start_directory>/home/allways/prs_ext/print_scale</start_directory>
+  </glade>
+
+  <glade2perl>
+    <author>Dermot Musgrove &lt;dermot.musgrove@virgin.net&gt;</author>
+    <date>Fri May  3 03:56:25 BST 2002</date>
+    <dont_show_UI>1</dont_show_UI>
+    <logo>/home/allways/glade2perl_logo.xpm</logo>
+    <my_gnome_libs>1.4.2</my_gnome_libs>
+    <my_gtk_perl>20010629</my_gtk_perl>
+    <name>Glade::PerlGenerate</name>
+    <start_time>¶g¤@ 12¤ë 30 13:43:25 CST 2002</start_time>
+    <version>0.60</version>
+    <xml>
+      <app_defaults>Application defaults</app_defaults>
+      <base_defaults>Glade::PerlRun defaults</base_defaults>
+      <encoding>ISO-8859-1</encoding>
+      <params>DEFAULT</params>
+      <project>/home/allways/prs_ext/print_scale/print_scale.glade2perl.xml</project>
+      <set_by>Glade::PerlGenerate-&gt;use_Glade_Project</set_by>
+      <site>/etc/glade2perl.xml</site>
+      <user>/home/allways/.glade2perl.xml</user>
+    </xml>
+
+  </glade2perl>
+
+  <source>
+    <write>1</write>
+  </source>
+
+  <test>
+    <directory>/home/allways/Projects/print_scale</directory>
+    <first_form>main</first_form>
+    <name>print_scale</name>
+    <use_module>src::print_scale</use_module>
+  </test>
+
+  <type>glade2perl</type>
+</glade2perl-Options>
